@@ -25,11 +25,11 @@ type PermissionsProviderCommonProps = {};
 
 type PermissionsProviderProps =
   | ({
-      children: React.ReactNode;
-    } & PermissionsProviderCommonProps)
+  children: React.ReactNode;
+} & PermissionsProviderCommonProps)
   | ({
-      children: (props: { loading: boolean }) => React.ReactNode;
-    } & PermissionsProviderCommonProps);
+  children: (props: { loading: boolean }) => React.ReactNode;
+} & PermissionsProviderCommonProps);
 
 /**
  * Provider for 8base user permissions
